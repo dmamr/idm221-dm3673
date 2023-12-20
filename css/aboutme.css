@@ -16,7 +16,13 @@
 	font-weight: 800;
 	line-height: normal;
 }
-
+a.contactmelink {
+	color: #252525;
+}
+a.contactmelink:hover {
+	color: #EB5D47;
+	transition: color 0.3s ease;
+}
 .work-experience-subtitle {
 	color: #242424;
 	font-family: Karla;
