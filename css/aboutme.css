@@ -1,0 +1,43 @@
+.skills-title {
+	color: #242424;
+	font-family: Karla;
+	font-size: 3.6vw;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	text-decoration-line: underline;
+}
+
+.education-title {
+	color: #242424;
+	font-family: Karla;
+	font-size: 3.6vw;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.work-experience-subtitle {
+	color: #242424;
+	font-family: Karla;
+	font-size: 3.6vw;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 120%;
+}
+
+.social-media-link {
+	color: #EBEBEB;
+	font-family: Koolegant;
+	font-size: 6vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	position: absolute; 
+	top: 50%; 
+	left: 12vw;
+	right: 12vw;
+	transform: translate(0%, -50%);
+	display: flex;
+	justify-content: space-around;
+}

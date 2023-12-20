@@ -1,0 +1,148 @@
+@font-face {
+	font-family: Koolegant;
+	src: url(../fonts/Koolegant-K7my7.ttf);
+}
+
+@font-face {
+	font-family: Karla;
+	src: url(../fonts/Karla-VariableFont_wght.ttf);
+}
+
+body {
+	margin: 0; 
+	background-color: #EBEBEB;
+}
+
+.menu-text {
+	text-align: center;
+	font-family: Karla;
+	font-size: 5vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.menu-button {
+	background-color: transparent;
+  	border: none;
+	cursor: pointer;
+}
+
+.main-title {
+	font-family: Koolegant;
+	font-size: 15vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 85%;
+}
+
+.get-in-touch-title {
+	font-family: Karla;
+	font-size: 4vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text {
+	color: #252525;
+	font-family: Karla;
+	font-size: 4vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal; 
+}
+
+.highlighted-text {
+	color: #EB5D47;
+	font-family: Karla;
+	font-size: 4vw;
+	font-style: italic;
+	font-weight: 500;
+	line-height: 120%; 
+}
+
+h2 {
+	color: #252525;
+	font-family: Karla;
+	font-size: 5vw;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal; 
+}
+
+h3 {
+	color: #252525;
+	font-family: Karla;
+	font-size: 4vw;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal; 
+}
+
+.subtitle {
+	color: #252525;
+	font-family: Karla;
+	font-size: 3.5vw;
+	font-style: italic;
+	font-weight: 300;
+	line-height: normal; 
+}
+
+.count {
+	width: 12vw; 
+	text-align: end; 
+	padding-right:6vw;
+	color: #252525;
+	font-family: Koolegant;
+	font-size: 12vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.count-title {
+	color: #252525;
+	font-family: Karla;
+	font-size: 3.2vw;
+	font-style: italic;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.count-text {
+	color: #252525;
+	font-family: Karla;
+	font-size: 3.2vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.count-highlight {
+	color: #EB5D47;
+	font-family: Karla;
+	font-size: 3.2vw;
+	font-style: italic;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.footer-left {
+	color: #EBEBEB;
+	font-family: Koolegant;
+	font-size: 4vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.footer-right {
+	color: #EBEBEB;
+	font-family: Karla;
+	font-size: 3.2vw;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+

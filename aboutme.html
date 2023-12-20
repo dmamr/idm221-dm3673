@@ -1,11 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+	<link rel="stylesheet" href="css/overlay.css">
+	<script src="overlay.js"></script>
 </head>
+
 <body>
-    
+	<!-- The overlay -->
+	<div id="myNav" class="overlay">
+		<!-- Button to close the overlay navigation -->
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+			<svg width="3vw" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M6.7533 5.51747L10.5221 1.75746C10.6871 1.59242 10.7798 1.36857 10.7798 1.13517C10.7798 0.901769 10.6871 0.677927 10.5221 0.512886C10.357 0.347846 10.1332 0.255127 9.89979 0.255127C9.66639 0.255127 9.44255 0.347846 9.27751 0.512886L5.5175 4.28166L1.75749 0.512886C1.59245 0.347846 1.36861 0.255127 1.1352 0.255127C0.9018 0.255127 0.677958 0.347846 0.512917 0.512886C0.347877 0.677927 0.255158 0.901769 0.255158 1.13517C0.255158 1.36857 0.347877 1.59242 0.512917 1.75746L4.28169 5.51747L0.512917 9.27747C0.430768 9.35895 0.365565 9.45589 0.321068 9.56269C0.276571 9.6695 0.253662 9.78406 0.253662 9.89976C0.253662 10.0155 0.276571 10.13 0.321068 10.2368C0.365565 10.3436 0.430768 10.4406 0.512917 10.522C0.594395 10.6042 0.691333 10.6694 0.798137 10.7139C0.904942 10.7584 1.0195 10.7813 1.1352 10.7813C1.25091 10.7813 1.36546 10.7584 1.47227 10.7139C1.57907 10.6694 1.67601 10.6042 1.75749 10.522L5.5175 6.75327L9.27751 10.522C9.35898 10.6042 9.45592 10.6694 9.56273 10.7139C9.66953 10.7584 9.78409 10.7813 9.89979 10.7813C10.0155 10.7813 10.1301 10.7584 10.2369 10.7139C10.3437 10.6694 10.4406 10.6042 10.5221 10.522C10.6042 10.4406 10.6694 10.3436 10.7139 10.2368C10.7584 10.13 10.7813 10.0155 10.7813 9.89976C10.7813 9.78406 10.7584 9.6695 10.7139 9.56269C10.6694 9.45589 10.6042 9.35895 10.5221 9.27747L6.7533 5.51747Z" fill="#EBEBEB"/>
+			</svg>
+		</a>
+	
+		<!-- Overlay content -->
+		<div class="overlay-content">
+			<a class="overlay-link" href="index.html">home</a>
+			<a class="overlay-current-link" href="aboutme.html">about me</a>
+			<a class="overlay-link" href="selected-projects.html">selected projects</a>
+			<a class="overlay-link" href="#">contact me</a>
+		</div>
+	</div>
+	<div class="text" style="margin: 3em 3em;">
+        <div
+			class="menu-text"
+			style="position: absolute; 
+			top: 8vw; 
+			left: 12vw; 
+			color: black; 
+			text-align: start;
+			transform: translate(0%, -50%);"
+		>
+			<button class="menu-button" onclick="openNav()">
+				<div>
+					<svg width="3vw" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M13.2611 3.88886L0.738889 3.88886C0.330812 3.88886 0 4.21968 0 4.62775L0 4.70553C0 5.11361 0.330812 5.44442 0.738889 5.44442L13.2611 5.44442C13.6692 5.44442 14 5.11361 14 4.70553V4.62775C14 4.21968 13.6692 3.88886 13.2611 3.88886Z" fill="#000000"/>
+						<path d="M13.2611 -3.8147e-05L0.738889 -3.8147e-05C0.330812 -3.8147e-05 0 0.330774 0 0.738851L0 0.816629C0 1.22471 0.330812 1.55552 0.738889 1.55552L13.2611 1.55552C13.6692 1.55552 14 1.22471 14 0.816629V0.738851C14 0.330774 13.6692 -3.8147e-05 13.2611 -3.8147e-05Z" fill="#000000"/>
+					</svg>
+					<span class="menu-text" style="color: #000000; margin-left: 10px">menu</span>
+				</div>
+			</button>
+		</div>
+        <img src="images/photo_and_text.png" style="width: 100%; margin-top: 6vw">
+		<div style="margin-bottom: 8vw; margin-top: 8vw">
+			Conveying <span class="highlighted-text">profound ideas in an artistic way</span> is what has always captivated me. It challenges to elevate perception by analyzing projects and coming to outside-the-box solutions. 
+            I am ready to <span class="highlighted-text">push the boundaries of my comfort zone</span> to create innovative and influential projects.
+		</div>
+		<h2>
+			skills
+		</h2>
+		<hr/>
+		<div style="margin-bottom: 6vw">
+            <div class="skills-title">Soft skills:</div> Dedication, Adaptability, Communication, Critical Thinking, Time-management
+        </div>
+        <div style="margin-bottom: 6vw">
+            <div class="skills-title">Hard skills:</div> Operating Systems: MacOS, WindowsSoftware: Microsoft Office, Adobe Creative Suite, Final Cut Pro, Figma Programming Languages: HTML, CSS Languages: English, Russian, Kazakh
+        </div>
+		<h2>
+			education
+		</h2>
+        <hr/>
+        <div style="margin-bottom: 4vw">
+            <span class="education-title">Drexel University</span> - Bachelor of Science in User Experience & Interaction Design
+        </div>
+        <div style="margin-bottom: 4vw">
+            <span class="education-title">Sholonova school</span> - Social Media Marketing Manager qualification “STEP” 
+        </div>
+        <div style="margin-bottom: 4vw">
+            <span class="education-title">IT academy</span> - Graphic Designer qualification
+        </div>
+        <div style="margin-bottom: 4vw">
+            <span class="education-title">Kava Ira Design School</span> - Graphic Designer qualification 
+        </div>
+        <h2>
+			work experience
+		</h2>
+        <hr/>
+        <div style="margin-bottom: 4vw">
+            <div>
+                <span class="education-title">"Laanga agency"</span> - <span class="work-experience-subtitle">SMM manager, stories maker (July - August 2023). </span>
+            </div>
+            <div>
+                Under supervision, I was responsible for creating a content plan, taking photos and videos; designing publications, posters, marketplaces, and stories; researching data and processing it into blog posts and stories content.
+            </div>
+        </div>
+        <div style="margin-bottom: 4vw">
+            <div>
+                <span class="education-title">"Zelenaya Kuhnya"</span> - <span class="work-experience-subtitle">head of SMM department (December 2020 - December 2021).</span>
+            </div>
+            <div>
+                After researching the market, created a content plan and accomplished it by designing advertising posters and arranging events, which ultimately doubled the number of subscribers and increased the number of impressions by 10 times
+            </div>
+        </div>
+        <div style="margin-bottom: 4vw">
+            <div>
+                <span class="education-title">"NIS Valley" startup community</span> - <span class="work-experience-subtitle">Co-founder, head of the SMM department (September 2021 - May 2022)</span>
+            </div>
+            <div>
+                After designing branding for the community, promoted the activity of the club on social media on a national level
+            </div>
+        </div>
+        <a>
+			contact me >
+		</a>
+        <hr/>
+        <h2>
+            social media
+        </h2>
+	</div>
+	<div style="position: relative;">
+		<img src="images/social_media.png" 
+			style="height: 25.1875rem;
+				width: 100%;
+				flex-shrink: 0;
+				object-fit: cover;"
+		>
+        <div class="social-media-link">
+            <a href="#" style="text-decoration: none; color: #EBEBEB;">
+                instagram
+            </a>
+            <a href="#" style="text-decoration: none; color: #EBEBEB;">
+                behance
+            </a>
+            <a href="#" style="text-decoration: none; color: #EBEBEB;">
+                telegram
+            </a>
+        </div>
+		<div style="position: absolute; bottom: 6vw; width: 100%">
+			<div class="footer-left" style="position: absolute; left: 4vw; ">
+				2023
+			</div>
+			<div class="footer-right" style="position: absolute; right: 4vw">
+				developed by riya mamratova
+			</div>
+		</div>
+	</div>
 </body>
-</html>l
+
+</html>
