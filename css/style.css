@@ -41,7 +41,29 @@ body {
 	font-size: 4vw;
 	font-style: normal;
 	font-weight: 400;
-	line-height: normal;
+	line-height: normal
+}
+
+a {
+	text-decoration: none;
+}
+
+a.learn:hover {
+	color: #EB5D47;
+	transition: color 0.3s ease;
+}
+
+a.learn {
+	color: #252525;
+}
+
+a.get-in-touch-title {
+	color: #ebebeb;
+}
+
+a.get-in-touch-title:hover {
+	color: #EB5D47;
+	transition: color 0.3s ease;
 }
 
 .text {
