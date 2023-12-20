@@ -19,10 +19,15 @@
 a.contactmelink {
 	color: #252525;
 }
+a.links {
+	text-decoration: none; 
+	color: #EBEBEB;
+}
 a:hover {
 	color: #EB5D47;
 	transition: color 0.3s ease;
 }
+
 .work-experience-subtitle {
 	color: #242424;
 	font-family: Karla;
