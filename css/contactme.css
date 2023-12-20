@@ -75,10 +75,15 @@ textarea {
 	border: none;
 	margin-top: 2vw;
 	margin-bottom: 2vw;
+	font-family: Karla;
+	font-size: 4vw;
+	font-style: italic;
+	font-weight: 400;
+	line-height: normal;
 }
 
 textarea::placeholder {
-	color: #7b7979;
+	color: #bebebe;
 	font-family: Karla;
 	font-size: 4vw;
 	font-style: italic;
@@ -94,4 +99,9 @@ textarea::placeholder {
 	font-weight: 700;
 	line-height: normal;
 	border: none;
+}
+
+.info {
+	color: #252525;
+	padding: 0.5rem 1rem;
 }
