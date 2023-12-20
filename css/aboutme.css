@@ -19,7 +19,7 @@
 a.contactmelink {
 	color: #252525;
 }
-a.contactmelink:hover {
+a:hover {
 	color: #EB5D47;
 	transition: color 0.3s ease;
 }
